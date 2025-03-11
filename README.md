@@ -1,4 +1,4 @@
-## OLED_Display_128X64 
+# OLED_Display_128X64.c
 
 <img src=https://statics3.seeedstudio.com/seeed/img/2016-09/6hLLXlBnfODAcWlp2wlaep3j.jpg width=400><img src=https://statics3.seeedstudio.com/seeed/img/2016-09/DwdeSLxipUJdCgsFZDI2wtYD.jpg width=400>
 
