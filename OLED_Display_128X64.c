@@ -169,7 +169,6 @@ void OLED_putChar(char C)
 
 void OLED_putStr(uint8_t *pData, uint16_t Size)
 {
-//	OLED_clearDisplay();
 	OLED_setTextXY(0,0);
 	for (int i = 0; i < Size; i++)
 	{
