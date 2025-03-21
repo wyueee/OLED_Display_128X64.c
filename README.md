@@ -4,6 +4,8 @@
 
 C driver for [Grove - OLED Display 0.96"](https://www.seeedstudio.com/s/Grove-OLED-Display-0.96%22-p-781.html), adapted from the [C++ driver](https://github.com/Seeed-Studio/OLED_Display_128X64).
 
+Tested on **B-L475E-IOT01A**, with the OLED screen connected to the I2C port via the [Base Shield V2](https://wiki.seeedstudio.com/Base_Shield_V2/).
+
 ## Pre-requisites  
 - Download `LCDAssistant.exe` from [this repository](https://github.com/mcauser/Grove-OLED-Display-96x96) (located in `Make A 96X96 Image.zip`) to convert `.bmp` images into patterns for displaying on the OLED screen.
 
