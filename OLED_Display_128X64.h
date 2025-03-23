@@ -3,7 +3,6 @@
 
 #include "../../Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01.h"
 #include <stdint.h>
- 
 
 #define OLED_DISPLAY_ADDR 0x3C << 1
 
@@ -20,11 +19,5 @@ void OLED_putChar(char C);
 void OLED_putStr(uint8_t *pData, uint16_t Size);
 void OLED_putPicture(uint8_t *picture);
 void OLED_putStr_fast(uint8_t *pData, uint16_t Size);
-
-extern char ghost_picture[1024];
-extern char normal_picture[1024];
-extern char ghost_busted_picture[1024];
-
-
 
 #endif 
