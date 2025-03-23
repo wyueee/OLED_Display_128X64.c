@@ -1,10 +1,12 @@
 <h3>⚠️ Note: This repository has been archived as I no longer have the hardware. ⚠️</h3>
 
-# OLED_Display_128X64.c  
+# OLED_Display_128X64.c
 
 <img src=https://statics3.seeedstudio.com/seeed/img/2016-09/6hLLXlBnfODAcWlp2wlaep3j.jpg width=400>   <img src=https://statics3.seeedstudio.com/seeed/img/2016-09/DwdeSLxipUJdCgsFZDI2wtYD.jpg width=400>  
 
-C driver for [Grove - OLED Display 0.96"](https://www.seeedstudio.com/s/Grove-OLED-Display-0.96%22-p-781.html), adapted from the [C++ driver](https://github.com/Seeed-Studio/OLED_Display_128X64).
+C driver for [Grove - OLED Display 0.96"](https://www.seeedstudio.com/s/Grove-OLED-Display-0.96%22-p-781.html), adapted from the [C++ driver](https://github.com/Seeed-Studio/OLED_Display_128X64). 
+
+Tested on **B-L475E-IOT01A** only. Might require modifications for other microcontrollers.
 
 ## Pre-requisites  
 - Download `LCDAssistant.exe` from [this repository](https://github.com/mcauser/Grove-OLED-Display-96x96) (located in `Make A 96X96 Image.zip`) to convert `.bmp` images into patterns for displaying on the OLED screen.
